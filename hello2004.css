@@ -1,0 +1,88 @@
+body {
+    box-sizing: border-box;
+    background-color: black;
+    background-image: url(assets/background2004.jpg);
+    background-repeat: repeat;
+}
+
+a {
+    color: blue;
+}
+
+.box {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: small;
+    text-transform: lowercase;
+    color: lightyellow;
+    width: 800px;
+    margin-left: 680px;
+    margin-top: 20px;
+    background-color: black;
+    opacity: 0.6;
+    padding: 50px 75px 100px;
+    border: 25px rgb(0, 0, 0, 0.6);
+    border-radius: 10px 250px;
+    box-shadow: 0 0 0 5px rgba(0,0,0,0.5)
+}
+
+.box h1 {
+    color: darkseagreen;
+    font-size: xxx-large;
+    font-family: sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-kerning: auto;
+    letter-spacing: 3px;
+}
+
+.box a {
+    color: lightyellow;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.box a:hover {
+    color: yellow;
+    font-weight: bolder;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.menu {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    opacity: 0.6;
+    padding: 50px 75px 100px;
+    border: 25px rgb(0, 0, 0, 0.6);
+    border-radius: 5px 250px;
+    margin-top: 50px;
+    margin-left: 300px;
+    text-transform: uppercase;
+    box-shadow: 0 0 0 5px rgba(0,0,0,0.5)
+}
+
+.menu a{
+    color: lightyellow;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+.menu a:hover{
+    font-weight: bolder;
+    color: yellow;
+}
+
+.main {
+    text-align: center;
+    color: white;
+    font-size: large;
+    z-index: 1;
+    width: 60%;
+    float: left;
+
+}

@@ -1,0 +1,142 @@
+/*GENERAL LAYOUT*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+
+    /* GENERAL FONT ATTRIBUTES */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #404040;
+    font-kerning: auto;
+    font-weight: bold;
+
+    /* SET BACKGROUND IMAGE */
+    background-image: url(assets/background.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+img {
+    width: 100%;
+}
+
+/* TEXT ADJUSTMENT */
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: xxx-large;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+h2 {
+    font-size: large;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+a {
+    color: #717683;
+}
+
+/* BOXES */
+
+.box {
+    position: relative;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    width: 40%;
+    padding: 1%;
+    text-align: center;
+    box-shadow: 0 0 0 50px rgba(0,0,0,0.4);
+}
+
+.toplayer {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+/* FORMS */
+form {
+}
+
+
+label {
+    padding-bottom: 20px;
+}
+
+/* GENERAL INPUT */
+input {
+    font-weight: bold;
+    width: 100%;
+    color: white;
+    background-color: #a5a5a5;
+    border: 2px white;
+    padding: 1%;
+}
+
+/* MESSAGE WINDOW */
+input[type=text], select, textarea {
+    font-weight: bold;
+    color: white;
+    background-color: #a5a5a5;
+    width: 100%;
+    padding: 1%;
+    resize: vertical;
+}
+
+/* FORM BUTTONS */
+input[type=submit] {
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    background-color: #a5a5a5;
+    width: 20%;
+    padding: 1%;
+    border-radius: 3px;
+    resize: vertical;
+}
+
+/* RESPONSIVENESS */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    h1, h2 {
+        font-size: medium;
+    }
+
+    h3 {
+        font-size: small;
+    }
+
+    .box {
+        font-size: small;
+        width: 80%;
+    }
+
+    input[type=submit] {
+        width: 45%;
+        font-size: smaller;
+    }
+}
+@media only screen and (min-width: 769px) {
+    img:hover {
+        transform: scale(1.5);
+    }
+
+}
+

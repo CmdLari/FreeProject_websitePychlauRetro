@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/Favicon.ico">
+    <link rel="stylesheet" type=text/css href="hello.css">
+    <title>Larissa Pychlau</title>
+</head>
+<body>
+
+<div class="toplayer">
+    <img src="assets/toplayer.png" alt="Birds" style="transform: scale(1)">
+</div>
+
+<div class="box">
+
+    <br>
+
+    <a href="welcome.html"> <img src="assets/logo.png" alt="Logo" style="width: 65px; height: 90px; transform: scale(1)"></a>
+
+    <h1>Larissa Pychlau</h1>
+
+    <h2><a href="https://www.pychlau.com/design/" target="_blank">Design</a> |
+        <a href="https://www.pychlau.com/photography/" target="_blank">Photography</a> |
+        <a href="https://www.pychlau.com/illustration/" target="_blank">Illustration</a></h2>
+</div>
+
+<div class="box">
+    <table style="width: 100%; border-collapse: collapse; border: #a5a5a5 5px solid;">
+        <tr style="border-collapse: collapse; border: #a5a5a5 5px solid;">
+            <td style="border-collapse: collapse; border: #a5a5a5 5px solid; text-align: right; padding-right: 1%; width: 50%"><h3>MAIL</h3></td>
+            <td style="border-collapse: collapse; border: #a5a5a5 5px solid; text-align: left; padding-left: 2%"><a href="mailto: studio-lp@gmx.de">Studio-LP@gmx.de</a></td>
+        </tr>
+        <tr style="border-collapse: collapse; border: #a5a5a5 5px solid;">
+            <td style="border-collapse: collapse; border: #a5a5a5 5px solid; text-align: right; padding-right: 1%; ;width: 50%"><h3>PHONE</h3></td>
+            <td style="border-collapse: collapse; border: #a5a5a5 5px solid; text-align: left; padding-left: 2%">+49 176 80 76 76 78</td>
+        </tr>
+        <tr style="border-collapse: collapse; border: #a5a5a5 5px solid;">
+            <td style="border-collapse: collapse; border: #a5a5a5 5px solid;text-align: right; padding-right: 1%; ;width: 50%"><h3>ADDRESS</h3></td>
+            <td style="border-collapse: collapse; border: #a5a5a5 5px solid; text-align: left; padding-left: 2%">Carl-Petersen-Str 1 | 20535 Hamburg</td>
+        </tr>
+    </table>
+</div>
+
+<div class="box">
+
+    <form action="hello.php" method="post">
+        <label for="person_name">NAME (required):</label>
+        <br>
+        <input type="text" id="person_name" name="name" placeholder="Firstname Lastname" required>
+        <br>
+        <br>
+        <label for="person_email">MAIL (required):</label>
+        <br>
+        <input type="email" id="person_email" name="email" placeholder="mail@" required>
+        <br>
+        <br>
+        <label for="person_date">WOULD YOU LIKE ME TO SAVE A DATE?</label>
+        <br>
+        <input type="date" id="person_date" name="date">
+        <br>
+        <br>
+        <label for="person_message">YOUR MESSAGE (required):</label>
+        <br>
+        <textarea id="person_message" name="message" placeholder="Your message..." style="height: 200px" required></textarea>
+        <br>
+        <br>
+        <input type="submit" name="submit" value="Write a Mail" formaction="mailto:larissapychlau@gmail.com??subject=Mail%20via%20Website" formenctype="text/plain">
+        <input type="submit" name="submit" value="Submit">
+    </form>
+
+    <br>
+    <br>
+
+</div>
+</body>
+</html>

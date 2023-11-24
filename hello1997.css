@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    background-image: url(assets/background_tile1997.gif);
+    background-repeat: repeat;
+}
+
+a {
+    color: blue;
+}
+
+.header {
+    margin-left: 10%;
+    margin-right: auto;
+    padding: 10px;
+    width: 60%;
+    font-size: xxx-large;
+    text-transform: uppercase;
+    text-align: center;
+    color: darkred;
+    background-color: black;
+    background-image: none;
+}
+
+.header img {
+    transform: scale(1);
+}
+
+.menu {
+    padding: 10px;
+    color: red;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-color: deeppink;
+    background-image: none;
+    width: 10%;
+    height: 100%;
+    float: left;
+    border: deeppink 5px outset;
+}
+
+.menu a{
+    color: cyan;
+}
+
+.main {
+    text-align: center;
+    color: white;
+    font-size: large;
+    z-index: 1;
+    width: 60%;
+    float: left;
+    border: deeppink double;
+}
+
+.box {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box img {
+    transform: scale(0.85);
+    border: deeppink 5px outset;
+    border-radius: 100px;
+}
+
+.button  {
+    background-color: yellow;
+    border: deeppink 2px solid;
+    font-weight: bolder;
+    color: deeppink;
+    font-size: larger;
+}
